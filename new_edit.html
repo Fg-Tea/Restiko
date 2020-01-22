@@ -1,0 +1,95 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mes restikos
+    </title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-light bg-perso">
+      <a id="nav_name" class="navbar-brand" href="#">
+        <img src="assets/img/fairytail.png" height="70" class="d-inline-block align-top" alt="">
+        Fong Tea.
+      </a>
+      <h3>Mes Restikos</h3>
+    </nav>
+
+    <div class="container">
+
+      <div id="edit_restiko">
+        <form>
+          <div class="form-group">
+            <label for="date_restiko">Date</label>
+            <input type="date" class="form-control" id="date_restiko">
+          </div>
+          <div class="form-group">
+            <label for="fait_restiko">Ce que j'ai fait</label>
+            <textarea class="form-control" id="fait_restiko" rows="3"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="appris_restiko">Ce que j'ai appris</label>
+            <textarea class="form-control" id="appris_restiko" rows="3"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="aime_restiko">Ce que j'ai aimé</label>
+            <textarea class="form-control" id="aime_restiko" rows="3"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="utilise_restiko">Ce que j'ai utilisé de nouveaux</label>
+            <textarea class="form-control" id="utilise_restiko" rows="3"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="problem_restiko">Problématiques rencontrées</label>
+            <textarea class="form-control" id="problem_restiko" rows="3"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="objectif_restiko">Quels sont les objectifs?</label>
+            <textarea class="form-control" id="objectif_restiko" rows="3"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="manque_restiko">Qu'est-ce qui m'a manqué?</label>
+            <textarea class="form-control" id="manque_restiko" rows="3"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="formateur_restiko">Qu'est ce que tu ferais à la place du formateur?</label>
+            <textarea class="form-control" id="formateur_restiko" rows="3"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="atteint_restiko">Objectif atteint ou pas</label>
+            <input type="text" class="form-control" id="atteint_restiko">
+          </div>
+          <div class="form-group">
+            <label for="rating_restiko">Ma note /5</label>
+            <input type="number" min="0" max="5" class="form-control" id="rating_restiko">
+          </div>
+          <div class="row">
+            <div class="col ml-5">
+              <div id="create_restiko" class="btn btn-info" onclick="create()">Créer</div>
+              <div id="modifier_restiko" class="btn btn-info" onclick="update()">Modifier</div>
+            </div>
+            <div class="col">
+              <div href="list.html" id="retour" type="button" class="btn btn-success">Annuler</div>
+            </div>
+          </div>
+          <input type="hidden" id="restikoIdEdit">
+        </form>
+      </div>
+      
+    </div>
+
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/airtable.browser.js"></script>
+    <script src="assets/js/conf_airtable.js"></script>
+    <script src="assets/js/new_edit.js"></script>
+
+  </body>
+
+  </html>

@@ -1,0 +1,68 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mes restikos
+    </title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-light bg-perso">
+      <a id="nav_name" class="navbar-brand" href="#">
+        <img src="assets/img/fairytail.png" height="70" class="d-inline-block align-top" alt="">
+        Fong Tea.
+      </a>
+      <h3>Mes Restikos</h3>
+    </nav>
+
+    <div class="container mt-5">
+
+      <div id="form_connect">
+        <div id="error_co">Erreur, veuillez recommencer!</div>
+        <form>
+          <div class="form-group row mt-3">
+            <label for="formGroupExampleInput" class="col-sm-4">Pseudo</label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control" id="id_pseudo" placeholder="Pseudo" autocomplete="username">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputPassword" class="col-sm-4">Mot de passe</label>
+            <div class="col-sm-8">
+              <input type="password" class="form-control" id="mdp_co" placeholder="Password"
+                autocomplete="current-password">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div id="connect_btn" type="submit" class="btn btn-info ml-5">Connection</div>
+            </div>
+            <div class="col">
+              <div id="return_co" class="btn btn-purple" onclick="reset()">Annuler</div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </div>
+
+
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/airtable.browser.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#id_pseudo").val("");
+        $("#mdp_co").val("");
+      });
+    </script>
+  </body>
+
+  </html>

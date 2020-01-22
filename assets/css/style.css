@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Marck+Script|Tangerine&display=swap');
+
+body {
+    background: url(../img/milky-way-472971_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.btn-info {
+    background: #4035d1;
+    width: 125px;
+    height: 40px;
+    color: black;
+}
+
+.btn-success {
+    background: rgba(235, 45, 187, 0.8);
+    width: 125px;
+    height: 40px;
+    color: black;
+}
+
+.btn-purple {
+    background: #7f3bc4;
+    width: 125px;
+    height: 40px;
+    color: black;
+}
+
+/* navbar */
+.bg-perso {
+    background: rgba(127, 59, 196, 0.6);
+}
+
+#nav_name {
+    font-size: 2.5em;
+    font-family: 'Marck Script', cursive;
+}
+
+h3 {
+    font-size: 4em;
+    color: white;
+    font-family: 'Tangerine', cursive;
+    margin-right: 10%;
+}
+
+/* page de connection */
+#error_co {
+    color: rgb(235, 45, 187);
+    font-size: 1.5em;
+    margin-left: 20%;
+    display: none;
+}
+
+#form_connect {
+    border-radius: 35px;
+    background: rgba(36, 28, 68, 0.7);
+    padding: 5%;
+    margin: 15%;
+}
+
+#return_co {
+    width: 200px;
+    height: 40px;
+}
+
+label {
+    font-family: 'Marck Script', cursive;
+    font-size: 1.8em;
+    color: rgb(235, 45, 187);
+}
+
+input {
+    font-size: 2em;
+}
+
+/* page de liste */
+
+#new_restiko {
+    margin-right: 50px;
+}
+
+.resume_restikos {
+    border-radius: 25px;
+    margin: 35px;
+    padding: 2% 5%;
+    background: rgba(36, 28, 68, 0.7);
+    font-size: 1.7em;
+}
+
+.intro {
+    color: white;
+    font-family: 'Marck Script', cursive;
+    font-size: 1.2em;
+}
+
+.date {
+    color: rgb(235, 45, 187);
+}
+
+/* page new_edit */
+#edit_restiko {
+    border-radius: 25px;
+    margin: 35px;
+    margin-top: 100px;
+    padding: 50px;
+    background: rgba(36, 28, 68, 0.7);
+}
+
+#modifier_restiko {
+    display: none;
+}
+
+/* page detail */
+#detail_restikos {
+    border-radius: 35px;
+    background: rgba(36, 28, 68, 0.7);
+    padding: 3%;
+    margin: 15%;
+    font-size: 1.2em;
+    color: white;
+}
+
+#intro {
+    color: rgb(235, 45, 187);
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Tangerine', cursive;
+
+}
+
+.first {
+    color: #efd807;
+    font-family: 'Marck Script', cursive;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+.indent {
+    text-indent: 75px;
+}
+
+#reset {
+    margin-left: 35%;
+}
