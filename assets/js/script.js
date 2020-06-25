@@ -1,7 +1,7 @@
 // Page de connection
 var admin = {
-    pseudo: "Tea",
-    password: "ari"
+    pseudo: "user",
+    password: "secret"
 }
 $("#connect_btn").on("click", function () {
     $("#connect_btn").val("");
